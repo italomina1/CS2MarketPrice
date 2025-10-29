@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+
+.card { @apply bg-slate/60 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-slate/40; }
+.btn { @apply px-4 py-2 rounded-xl font-semibold transition hover:opacity-90 disabled:opacity-50; }
+.btn-primary { @apply bg-bronze text-black; }
+.btn-secondary { @apply bg-slate text-ink; }
